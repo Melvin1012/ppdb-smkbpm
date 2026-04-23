@@ -58,11 +58,11 @@
 </head>
 <body>
   <div class="login-box">
-    <h2>Login</h2>
+    <h2>Login Aplikasi</h2>
     <form action="dashboard.html" method="POST">
       <input type="text" name="username" placeholder="Username" required>
       <input type="password" name="password" placeholder="Password" required>
-      <button type="submit">Login</button>
+      <button type="submit">Login </button>
     </form>
     <div class="links">
       <a href="#">Lupa password?</a> | <a href="#">Daftar</a>
