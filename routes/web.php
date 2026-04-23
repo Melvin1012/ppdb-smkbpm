@@ -14,3 +14,6 @@ Route::get('/login', function () {
 Route::get('/siswa',[SiswaController::class,'getdata']);
 
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
